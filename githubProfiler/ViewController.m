@@ -59,6 +59,12 @@
     NSLog(@"company: %@", companyValueAsString);
     self.LabelCompany.text = [NSString stringWithFormat:@"%@%@", @"Company: ", companyValueAsString];
     
+    // get Website
+    id websiteValue = [res objectForKey:@"blog"];
+    NSString *websiteValueAsString = (NSString *)websiteValue;
+    NSLog(@"website: %@", websiteValueAsString);
+    self.LabelWebsite.text = [NSString stringWithFormat:@"%@%@", @"Website: ", websiteValueAsString];
+    
     // get Location
     id locationValue = [res objectForKey:@"location"];
     NSString *locationValueAsString = (NSString *)locationValue;

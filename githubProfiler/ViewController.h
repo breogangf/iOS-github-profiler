@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *LabelId;
 @property (strong, nonatomic) IBOutlet UILabel *LabelName;
 @property (strong, nonatomic) IBOutlet UILabel *LabelCompany;
+@property (strong, nonatomic) IBOutlet UILabel *LabelWebsite;
 @property (strong, nonatomic) IBOutlet UILabel *LabelLocation;
 @property (strong, nonatomic) IBOutlet UILabel *LabelEmail;
 @property (strong, nonatomic) IBOutlet UILabel *LabelPublicRepos;
